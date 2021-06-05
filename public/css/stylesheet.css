@@ -1,0 +1,71 @@
+#sortlist-lista {
+
+    width:30%;
+}
+
+.starrating {
+  width: 20px;
+  height: 20px;
+
+}
+
+.GeneralListRatings {
+
+  background-color: #ffd0d0;
+}
+.GeneralListRatings div.singlerating:nth-child(even)  {
+
+  background-color: #ffd0d0;
+}
+.GeneralListRatings div.singlerating:nth-child(odd)  {
+
+  background-color: #ffbbbb;
+}
+
+.UserListRatings {
+
+  background-color: #d0ffd0;  
+}
+.UserListRatings div.singlerating:nth-child(even)  {
+
+  background-color: #d0ffd0;
+}
+.UserListRatings div.singlerating:nth-child(odd)  {
+
+  background-color: #bbffbb;
+}
+
+td, th {
+  border: 1px solid #eeeeee;
+  text-align: left;
+  padding: 8px;
+}
+
+tr.listcategory:nth-child(even) {
+  background-color: #ffd0d0;
+}
+
+tr.listcategory:nth-child(odd) {
+  background-color: #ffbbbb;
+}
+
+tr.sortcategory:nth-child(even) {
+  background-color: #ffffd0;
+}
+
+tr.sortcategory:nth-child(odd) {
+  background-color: #ffffbb;
+}
+
+tr.publishedcatory:nth-child(even) {
+  background-color: #d0ffd0;
+}
+
+tr.publishedcatory:nth-child(odd) {
+  background-color: #bbffbb;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
